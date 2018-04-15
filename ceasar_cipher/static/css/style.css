@@ -1,0 +1,147 @@
+body{
+    background: #DCDCDC;
+}
+
+.header{
+    background: #F5F5F5;
+    height: 15%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-radius: 3px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    overflow: hidden;
+
+}
+
+.logo{
+   padding: 10px;
+}
+
+.header_text{
+    display: inline;
+}
+
+.container{
+    width: 100%;
+    height: 900px;
+    position: fixed;
+    top: -20%;
+    left: 0;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    overflow: auto;
+}
+
+.form_block{
+    background: #F5F5F5;
+    padding: 60px 20px 60px 20px;
+    border-radius: 3px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.form_piece{
+    display: inline-block;
+}
+
+
+.action_block{
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    overflow: auto;
+    margin-bottom: 50px;
+}
+
+.textarea{
+    resize: none;
+    border: 1px solid #999;
+    border-radius: 3px;
+
+}
+
+.input_key{
+    border: 1px solid #999;
+    border-radius: 3px;
+    width: 50px;
+    height: 20px;
+
+}
+
+.input_key_label{
+    font-size: 12px;
+    margin-right: 60px;
+}
+
+.empty_field {
+    border: 1px solid indianred;
+    box-shadow: 0 0 5px indianred;
+}
+
+.input_key_block{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    overflow: auto;
+}
+
+.button_decode{
+    border-radius: 0 10px 10px 0;
+}
+
+.button_encode{
+    border-radius: 10px 0 0 10px;
+}
+
+.buttons{
+    background-color: white;
+    border: 1px solid #555555;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.buttons:hover{
+    background-color: #555555;
+    color: white;
+}
+
+.buttons_block{
+    margin-top: 10px;
+}
+
+.info_block{
+    height: 100px;
+    width: 840px;
+    position: absolute;
+    display: none;
+    top: 600px;
+    background: #F5F5F5;
+    border-radius: 3px;
+    padding: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.error_block{
+    height: 20px;
+    width: 200px;
+    border: 1px solid indianred;
+    box-shadow: 0 0 5px indianred;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    text-align: left;
+    line-height: 20px;
+    padding-left: 10px;
+    color: indianred;
+}
